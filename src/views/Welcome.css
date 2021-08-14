@@ -1,0 +1,88 @@
+body {
+    background-color: black;
+}
+
+.content {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8.5%;
+    width: 100vh;
+    transform: translateY(8%);
+}
+
+.logo img {
+    width: 700px;
+    margin-right: 50px;
+    position: relative;
+    transform: translateX(-30%) translateY(-20%);
+}
+
+.login {
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.login h1 {
+    text-align: left;
+    transform: translateX(-20px);
+    font-size: 54px;
+    padding: 10px;
+}
+
+p {
+    font-size: 18px;
+    text-align: left;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+}
+
+.user input {
+    border-style: none;
+    color: white;
+    font-size: 20px;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(102, 102, 102, 0.8015581232492998) 35%, rgba(198, 198, 198, 0.08727240896358546) 100%);
+}
+
+.user input::placeholder {
+    color: white;
+}
+
+.log {
+    margin-top: 50%;
+}
+
+.img {
+    margin: 0 auto;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+    color: black;
+    font-size: 72px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 0 5px 5px 0;
+    background: #fafafa;
+    font-weight: bold;
+}
+
+.img:hover {
+    transition: 0.5s;
+    margin: 0 auto;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-size: 72px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 0 5px 5px 0;
+    background: #4CD62B;
+    background-color: #4CD62B;
+    border-radius: 0 5px 5px 0;
+}
